@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'Tai Heritage Pro', serif; 
+    box-sizing: border-box;
+    forn-size:62.5%;
+
+}
+.container{
+    margin: 1rem 2rem;
+
+}
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header__logo img{
+width:5rem;
+}
+.header__icon i{
+    font-size: 1rem;
+    padding: 1rem;
+    /* cái padding này dùng để căn chỉnh cho nó có khoảng cách */
+    color: #FFF;
+    background-color: #F26464;
+    border-radius: 50%;    
+}
+.content{
+/* cái này lhoong cần CSS */
+
+}
+.content__inf p {
+    
+}
+.content img {
+width: 100%;
+}
+.content__subifor{
+ display:flex;
+ /* display dùng để căn nó sang này ngang */
+}
+.content__subifor div {
+ padding: 0 2rem;
+ /* padding dùng để cho khoảng cách  */
+
+}
+
+.content__subdifor__number h2{
+font-size: 2rem;
+color: orangered;
+padding-left: -1rem;
+width: 100%;
+}
+.content__subdifor__number p{
+    font-size: 1rem;
+    margin-left: -1rem;
+}
+.information__1{
+    width: 100%;
+    height: 20rem;
+    padding 2rem 0;
+}
+
+
+
+.information__2 {
+
+   
+    color: #F26464;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border: 2px solid #F26464;
+    border-radius: 60px;
+ 
+}
+.information__2 a{
+  padding-left: 1.3rem;
+ 
+}
+
+
+
+
+.footer{
+    width: auto;
+    height: 20rem;
+    padding: 60px auto;
+    background: #000 ;
+   display: block;
+   justify-content: center;
+   color: #FFF;
+}
+.footer__box{
+width: 100%;
+display: flex;
+justify-content: center;
+
+}
+.footer__box__text {
+    padding-top: 5rem;
+}
+
+.footer__box__text {
+width: 100%;
+text-align: center;
+padding: 5rem 2rem;
+}
+.footer__box__text h1, strong, a, h2,p{
+    padding:1rem 0;
+}
+.footer__box__text a{
+    border: #F26464 solid 2px;
+    border-radius: 25px;
+    padding:10px 2rem;
+    font-size: 20px;
+}
+.footer__box__text a:hover{
+    background: #F26464;
+}
+
